@@ -9,8 +9,8 @@ unsigned long key_value = 0;
 
 #include <Adafruit_NeoPixel.h>
 #define PIXELSPIN   5
-#define NUMPIXELS   144
-#define PIXELS_BY_ROW 48
+#define NUMPIXELS   144 // Nombre total de LEDs
+#define PIXELS_BY_ROW 48 // Nombre de LEDs par étagères
 
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIXELSPIN, NEO_GRB + NEO_KHZ800);
 
